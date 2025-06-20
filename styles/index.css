@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    align-content: center;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    width: 1230px;
+    height: 75px;
+    margin: 0 auto;
+}
+
+.header__container{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 100%;
+    gap:50px;
+}
+
+#header__menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 19px 0;
+    width: 100%;
+}
+
+#header__logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+#nav__list{
+    display: flex;
+    flex-direction: row;
+    gap:55px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_item{
+    list-style: none;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+.nav_item a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#header__auth{
+    align-content: center;
+    gap: 30px;
+}
+
+.white-button{
+    color: #0070A0;
+    background-color: transparent;
+    border: none;
+    width: 89px;
+    height: 36px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+.demo-button{
+    background-color: #0070A0;
+    color: white;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    border: none;
+    weight: 99px;
+    padding: 6px 20px;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 95px 0px;
+}
+
+#hero__text{
+    width: 525px;
+}
+
+#hero-title{
+    width: 485px;
+    padding-top: -5.28px;
+    font-size: 58px;
+    letter-spacing: 0.2px;
+    line-height: 63.8px;
+    font-family: 'Fraunces';
+    margin: 40px 0;
+}
+
+#hero-description{
+    font-family: 'Inter';
+    max-width:351px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    font-size: 20px;
+    padding-top: 3px;
+    text-align: justify;
+    margin: 0;
+}
+
+#hero-button{
+    padding-top: 32px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+.button-learn{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 130px;
+    gap:10px;
+}
+
+#hero__learn-button{
+    font-size: 17px;
+    horiz-align: center;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 6px 0;
+}
