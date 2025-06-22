@@ -154,3 +154,95 @@ body{
     margin: 0;
     padding: 6px 0;
 }
+
+.companies{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    height: 97px;
+    margin: 40px auto 160px auto;
+}
+.companies__massage{
+    font-size: 24px;
+    line-height: 37.5px;
+    letter-spacing: 0.2px;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 24px;
+}
+
+.message-title{
+    margin: 0;
+}
+
+.companies__name{
+    display: flex;
+    gap:61px;
+}
+
+.dignity{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    gap: 32px;
+    width: 1130px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.dignity_card{
+    width: 355px;
+    height: 250px;
+    padding: 32px 32px 40px 32px;
+    box-sizing: border-box;
+}
+
+.dignity__fast{
+    background-color: #FAEA73;
+}
+
+.dignity__bang{
+    background-color: #CCEFF6;
+}
+
+.dignity__safe{
+    background-color: #F7CEDC;
+}
+
+.dignity__title{
+    font-family: 'Fraunces';
+    font-size: 25px;
+    line-height: 31.25px;
+    letter-spacing: 0.2px;
+    color:#1F1F1F;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 11px;
+}
+
+.dignity__description{
+    font-family: 'Inter';
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin: 0;
+}
+
+/*аккардеон*/
+.accordion-item{
+    width: 450px;
+}
+
+.accordion-header {
+    padding: 16px 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-header:hover {
+    background-color: #e9ecef;
+}
