@@ -87,11 +87,6 @@ body{
 
 .demo-button{
     background-color: #0070A0;
-    color: white;
-    font-size: 15px;
-    font-family: 'Inter', sans-serif;
-    line-height: 24px;
-    letter-spacing: 0.2px;
     border: none;
     weight: 99px;
     padding: 6px 20px;
@@ -394,4 +389,81 @@ body{
     letter-spacing: 0.2px;
     line-height: 24px;
     font-weight: 400;
+}
+
+/*Set-forget section*/
+.text-button{
+    background-color: transparent;
+    width: 176px;
+    height: 43px;
+    top: 334.13px;
+    angle: 0 deg;
+    opacity: 1;
+}
+
+.set-forget{
+    background-color: #0070A0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 80px 155px;
+    gap:187px;
+    height: 550px;
+    box-sizing: border-box;
+}
+
+.set-forget-image{
+    margin-left:60px;
+}
+
+.set-forget-text{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: 'Inter', regular;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color:#FFFFFF;
+}
+
+.text-title{
+    font-size: 42px;
+    font-family: 'Fraunces', regular;
+    line-height: 50.4px;
+    letter-spacing: 0.2px;
+    width: 403px;
+    margin: 0;
+    padding-bottom: 19px;
+}
+
+.text-content{
+    margin: 0;
+    padding-bottom: 18px;
+}
+
+.text-done{
+    list-style-image: url("../images/icon-done.svg");
+    padding: 0 26px;
+    margin: 0;
+}
+
+.done-item{
+    padding: 0;
+}
+
+.done-item::marker {
+    padding: 0;
+    margin: 0;
+    border: 1.6px;
+    height: 21px;
+}
+
+/*Button*/
+.whirl-button{
+    color: white;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    border: none;
 }
