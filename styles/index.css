@@ -333,7 +333,8 @@ body{
 
 }
 
-/**/
+/*Whats-whirl*/
+/*Your tasks*/
 .whats-whirl{
     display: flex;
     flex-direction: row;
@@ -343,12 +344,12 @@ body{
     padding: 120px 155px;
 }
 
-.whats__title__block{
+.whats__title__block {
     align-content: flex-start;
     width: 300px;
 }
 
-.whats__title1{
+.whats__title1, .task__title{
     font-size: 42px;
     font-family: 'Fraunces', regular;
     line-height: 50px;
@@ -367,7 +368,7 @@ body{
     width: 300px;
 }
 
-.whats__items{
+.whats__items, .your-tasks-items{
     display: flex;
     flex-direction: row;
     gap:32px;
@@ -375,7 +376,7 @@ body{
     color: #1F1F1F;
 }
 
-.whats__item{
+.whats__item, .task__item{
     font-family: 'Fraunces', regular;
     font-size: 25px;
     letter-spacing: 0.2px;
@@ -383,7 +384,7 @@ body{
     font-weight: 400;
 }
 
-.whats__text{
+.whats__text, .task__text{
     font-family: 'Inter', regular;
     font-size: 15px;
     letter-spacing: 0.2px;
@@ -416,7 +417,7 @@ body{
     margin-left:60px;
 }
 
-.set-forget-text{
+.set-forget-text, .title-text{
     display: flex;
     flex-direction: column;
     font-size: 18px;
@@ -424,6 +425,11 @@ body{
     line-height: 27px;
     letter-spacing: 0.2px;
     color:#FFFFFF;
+}
+
+.title-text{
+    color: #1F1F1F;
+    width: 650px;
 }
 
 .text-title{
@@ -456,6 +462,29 @@ body{
     margin: 0;
     border: 1.6px;
     height: 21px;
+}
+
+
+/*Your tasks*/
+.your-tasks{
+    display: flex;
+    flex-direction: column;
+    padding: 120px 155px;
+}
+
+.your-tasks-items{
+    gap:64px;
+    padding-top: 98px;
+}
+
+.your-tasks-items .item{
+    width: 234px;
+    position: relative;
+    height: 250px;
+}
+
+.task__image{
+    align-content: flex-start;
 }
 
 /*Button*/
