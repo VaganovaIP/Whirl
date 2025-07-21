@@ -90,6 +90,11 @@ body{
     border: none;
     weight: 99px;
     padding: 6px 20px;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-family: 'Inter', regular;
+    line-height: 27px;
+    letter-spacing: 0.2px;
 }
 
 .hero__container {
@@ -552,11 +557,57 @@ body{
     leading-trim: NONE;
     line-height: 19.6px;
     letter-spacing: 0.2px;
+    color:#1F1F1F;
 }
 
 .post_date{
     font-size: 12px;
 }
+
+
+/*Get started*/
+.get-started{
+    margin: 80px 155px;
+    padding: 63px 563px 48px 64px;
+    background-color: #E6F7FF;
+}
+
+.get-started .text-content{
+    font-family: 'Inter', regular;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    padding-bottom: 36px;
+    color: #1F1F1F;
+}
+
+.subscription{
+    display: flex;
+    flex-direction: row;
+    gap:32px;
+    color: #626A72;
+    padding: 0;
+    list-style-position: inside;
+}
+
+.subscription-item{
+    list-style-image: url("/images/get-started.svg");
+    font-family: 'Inter', regular;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    margin: 0;
+}
+
+
+.subscription-item::marker{
+    padding: 0;
+    margin-right: 0;
+}
+
+
 
 /*Button*/
 .whirl-button{
